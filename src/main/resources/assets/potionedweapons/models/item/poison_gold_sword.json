@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "potionedweapons:item/poison_gold_sword"
+  }
+}

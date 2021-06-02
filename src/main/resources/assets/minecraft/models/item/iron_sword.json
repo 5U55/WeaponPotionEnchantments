@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+	"overrides": [
+		{
+			"predicate": {
+				"potionedweapons:harming_enchanted" : 1.0
+			},
+			"model": "potionedweapons:item/harming_iron_sword"
+		},
+		{
+			"predicate": {
+				"potionedweapons:healing_enchanted" : 1.0
+			},
+			"model": "potionedweapons:item/healing_iron_sword"
+		},
+		{
+			"predicate": {
+				"potionedweapons:poison_enchanted" : 1.0
+			},
+			"model": "potionedweapons:item/poison_iron_sword"
+		},{
+			"predicate": {
+				"potionedweapons:slowness_enchanted" : 1.0
+			},
+			"model": "potionedweapons:item/slowness_iron_sword"
+		},{
+			"predicate": {
+				"potionedweapons:weakness_enchanted" : 1.0
+			},
+			"model": "potionedweapons:item/weakness_iron_sword"
+		}
+	]
+}
